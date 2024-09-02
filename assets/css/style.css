@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(163, 115, 72);
+}
+.header h1 {
+  margin: 0px;
+  font-weight: 400;
+  color: rgb(223, 179, 123);
+}
+p {
+  color: #ddd;
+}
+h2 {
+  color: rgb(214, 179, 133);
+}
+
+.header {
+  height: 10em;
+
+  padding: 5em;
+  font-size: 2em;
+  background-image: url(../img/fondo\ cafe.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: fantasy;
+  text-align: center;
+  background: linear-gradient(rgba(5, 7, 12, 0.276) rgba(5, 7, 12, 0.75));
+}
+
+.products {
+  width: 80%;
+  margin: auto;
+}
+
+.products td {
+  width: 50%;
+  padding: 2em;
+}
+.products img {
+  width: 50%;
+  border: solid 1px #ddd;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  height: 4em;
+  list-style: 3em;
+  background-color: rgba(14, 14, 14, 0.665);
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
